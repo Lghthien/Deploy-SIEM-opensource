@@ -12,18 +12,12 @@ The system centralizes log collection, parsing, normalization, storage, and visu
 
 ## Architecture
 
-[Endpoints]
-↓
-[Wazuh Agent]
-↓
-[Wazuh Manager]
-↓
-[Vector (Aggregator & Parser)]
-↓
-[OpenSearch Cluster]
-↓
+[Endpoints] ->
+[Wazuh Agent] ->
+[Wazuh Manager] ->
+[Vector (Aggregator & Parser)] ->
+[OpenSearch Cluster] ->
 [OpenSearch Dashboards]
-
 
 ### Core Components
 
